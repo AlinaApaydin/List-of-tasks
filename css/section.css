@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section {
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 5px #ddd;
+}
+
+.section__header {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section__body {
+    padding: 20px;
+}
+
+.section__tasks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.section__button {
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0s;
+}
+
+.section__button--done {
+    background: green;
+}

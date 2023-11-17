@@ -1,0 +1,34 @@
+html{
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+    padding: 10px;
+    background: rgb(53, 148, 165);
+    color: white;
+    border: none;
+    
+}
+
+.form__button:hover {
+    background: rgb(78, 169, 185);
+
+}
+
+.form__button:active {
+    background: rgb(138, 214, 228);
+}

@@ -105,10 +105,10 @@
         if (tasks.length > 0) {
             buttonsElement.innerHTML = `
             <button class="task__hideOrShowAllDone js-toggleDoneTasks">
-            ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+            ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone zadania
             </button>
             <button class="task__markAllDone js-markAllDone" ${tasks.every(({ done }) => done) ? "disabled" : ""}>
-            Ukończ wszystkie
+            Oznacz wszystkie zadania jako ukończone
             </button>`;
         } else {
             buttonsElement.innerHTML = ``;

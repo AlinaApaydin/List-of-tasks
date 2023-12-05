@@ -14,14 +14,14 @@ html {
     background-color: rgb(0, 128, 128);
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+    padding: 5px;
     border: none;
     transition: 0.7s;
 }
 
 .form__button:hover {
     background-color: rgb(0, 153, 153);
-    transform: scale(50%);
+    transform: scale(20%);
 }
 
 @media (max-width: 700px) {
@@ -33,7 +33,7 @@ html {
 .form__newTask {
     border: 1px solid rgb(185, 185, 185);
     width: 700px;
-    padding: 10px;
+    padding: 5px;
 }
 
 @media (max-width: 992px) {
@@ -45,6 +45,6 @@ html {
 @media (max-width: 700px) {
     .form__newTask {
         flex-basis: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 }

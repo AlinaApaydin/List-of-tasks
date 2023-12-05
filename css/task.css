@@ -37,7 +37,7 @@
     background: transparent;
     border: none;
     color: teal;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .task__hideOrShowAllDone:hover {
@@ -57,7 +57,7 @@
     background: transparent;
     border: none;
     color: teal;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .task__markAllDone:hover {
@@ -86,7 +86,7 @@
     width: 30px;
     height: 30px;
     color: white;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .task__js--done:hover {
@@ -99,7 +99,7 @@
     width: 30px;
     height: 30px;
     color: white;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .task__js--remove:hover {

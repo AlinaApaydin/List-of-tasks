@@ -5,7 +5,7 @@
 
 .section__header {
     border-bottom: 2px solid rgb(233 233 233);
-    padding: 20px;
+    padding: 5px;
     margin: 0px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .section__main {
-    padding: 25px;
+    padding: 5px;
 }
 
 @media (max-width: 700px) {
